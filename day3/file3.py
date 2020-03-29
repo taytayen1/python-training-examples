@@ -1,7 +1,7 @@
 
 filetxt = open('deneme.txt', 'r')
 print(filetxt.read())
-filetxt.clo1se()
+filetxt.close()
 
 filetxt = open('deneme.txt', 'r')
 a = filetxt.readline(200)
